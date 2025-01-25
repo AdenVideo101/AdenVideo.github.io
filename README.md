@@ -15,7 +15,7 @@
         /* Body and basic layout */
         body {
             font-family: 'Arial', sans-serif;
-            background-color: #f4f4f4;
+            background-color: #fff;
             color: #333;
             padding: 20px;
             text-align: center;
@@ -43,7 +43,7 @@
 
         /* Header styles */
         header {
-            background-color: #222;
+            background-color: #000;
             color: #fff;
             padding: 20px;
         }
@@ -62,30 +62,17 @@
             margin-right: 25px;
         }
 
+        nav ul li a {
+            color: #FFD700; /* Gold color for links */
+        }
+
+        nav ul li a:hover {
+            color: #fff;
+        }
+
         /* Main content area */
         main {
             margin: 40px 0;
-        }
-
-        /* Under Construction Page style */
-        .under-construction {
-            background-color: #FFD700;
-            padding: 30px;
-            border-radius: 10px;
-            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
-        }
-
-        /* Footer styles */
-        footer {
-            margin-top: 40px;
-            font-size: 1em;
-            color: #555;
-        }
-
-        footer p {
-            padding: 10px;
-            background-color: #222;
-            color: #fff;
         }
 
         /* Layout for the home page */
@@ -105,7 +92,7 @@
 
         .home-page a {
             background-color: #000;
-            color: #fff;
+            color: #FFD700; /* Gold background color */
             padding: 10px 20px;
             border-radius: 5px;
             font-size: 1.2em;
@@ -113,6 +100,19 @@
 
         .home-page a:hover {
             background-color: #333;
+        }
+
+        /* Footer styles */
+        footer {
+            margin-top: 40px;
+            font-size: 1em;
+            color: #555;
+        }
+
+        footer p {
+            padding: 10px;
+            background-color: #000;
+            color: #fff;
         }
     </style>
 </head>
@@ -124,9 +124,9 @@
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="about.html" onclick="alert('This page is under construction!')">About</a></li>
+                <li><a href="portfolio.html" onclick="alert('This page is under construction!')">Portfolio</a></li>
+                <li><a href="contact.html" onclick="alert('This page is under construction!')">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -145,4 +145,3 @@
 
 </body>
 </html>
-
