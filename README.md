@@ -1,76 +1,74 @@
-/* Global Styles */
-body {
-    font-family: 'Roboto', sans-serif; /* Use a clean, modern font */
-    background-color: #f4f4f4; /* Light gray background */
-    color: #333333; /* Dark gray text */
-    margin: 0;
-    padding: 0;
-}
 
-/* Navigation Menu */
-nav {
-    background-color: #000000; /* Black navigation background */
-    padding: 1rem;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxury Car Videography</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #000;
+            color: #fff;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #222;
+            padding: 10px;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #000;
+            color: #fff;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Luxury Car Videography</h1>
+        <p>Capturing the beauty and elegance of high-class vehicles</p>
+    </header>
 
-nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: space-around;
-}
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact Us</a>
+    </nav>
 
-nav ul li {
-    margin: 0;
-}
+    <main>
+        <h2>Welcome to Luxury Car Videography</h2>
+        <p>We specialize in creating stunning visuals for luxury cars, exotic cars, and sport bikes. Stay tuned for updates as we build our portfolio!</p>
+    </main>
 
-nav ul li a {
-    color: #ffffff; /* White text */
-    text-decoration: none;
-    font-size: 1.1rem;
-    padding: 0.5rem 1rem;
-    transition: color 0.3s;
-}
-
-nav ul li a:hover {
-    color: #ffd700; /* Gold hover effect */
-}
-
-/* Headers */
-h1, h2, h3 {
-    color: #000000; /* Black headers */
-}
-
-/* Button Styles */
-button {
-    background-color: #000000; /* Black button */
-    color: #ffd700; /* Gold text */
-    border: none;
-    padding: 0.75rem 1.5rem;
-    font-size: 1rem;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-button:hover {
-    background-color: #333333; /* Dark gray on hover */
-}
-
-/* Footer */
-footer {
-    background-color: #000000; /* Black footer */
-    color: #ffffff; /* White text */
-    text-align: center;
-    padding: 1rem 0;
-    margin-top: 2rem;
-}
-
-/* Page-Specific Content */
-.page-banner {
-    background-color: #ffd700; /* Gold banner */
-    color: #000000; /* Black text */
-    padding: 2rem;
-    text-align: center;
-    margin-bottom: 1rem;
-}
+    <footer>
+        <p>&copy; 2025 Luxury Car Videography. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
