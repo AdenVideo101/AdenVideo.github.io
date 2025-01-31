@@ -55,7 +55,7 @@
     </header>
 
     <nav>
-        <a href="index.html">Home</a>google.com
+        <a href="index.html">Home</a>
         <a href="about.html">About Us</a>
         <a href="gallery.html">Gallery</a>
         <a href="services.html">Services</a>
