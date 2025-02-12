@@ -66,6 +66,7 @@
         <h2>Welcome to Luxury Car Videography</h2>
         <p>We specialize in creating stunning visuals for luxury cars, exotic cars, and sport bikes. Stay tuned for updates as we build our portfolio!</p>
     </main>
+![Test JPEG](https://github.com/user-attachments/assets/b48cfdc7-7c08-4d4b-9725-2fe5be7dba3e)
 
     <footer>
         <p>&copy; 2025 Luxury Car Videography. All Rights Reserved.</p>
